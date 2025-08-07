@@ -16,11 +16,6 @@ export default function Home() {
           <ResponsiveMenu items={menuItems} />
         </div>
       </header>
-
-      <main className="container mx-auto p-4">
-        <h2 className="text-2xl font-bold mb-4">Добро пожаловать!</h2>
-        <p>Это демонстрация адаптивного меню.</p>
-      </main>
     </div>
   );
 }
